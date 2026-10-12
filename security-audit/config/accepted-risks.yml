@@ -1,0 +1,8 @@
+# Risques acceptés. Seul le Responsable sécurité (Baudouin Bitang) peut ajouter une entrée.
+# Une entrée expirée remet le constat dans le corps du rapport.
+risques_acceptes: []
+#  - id: GRL-3f9c2a1b7e04
+#    justification: "Bibliothèque utilisée uniquement dans un outil interne hors ligne"
+#    accepte_par: Baudouin Bitang
+#    date: 2026-10-08
+#    expiration: 2027-01-08

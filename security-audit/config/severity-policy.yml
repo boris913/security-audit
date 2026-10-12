@@ -1,0 +1,29 @@
+# Politique de sévérité et seuils de l'audit (PROC-SEC-AUDIT-001)
+# Toute modification passe par une pull request validée par Baudouin Bitang.
+
+owasp_edition: "2021"   # passer à "2025" une fois l'équipe alignée sur la nouvelle édition
+
+cvss:
+  critique: 9.0
+  elevee: 7.0
+  moyenne: 4.0
+
+delais_jours:
+  critique: 7
+  elevee: 30
+  moyenne: 90
+  faible: 180
+  secret_valide_heures: 24
+
+seuils:
+  derniere_version_mois: 18
+  dernier_commit_mois: 12
+  version_recente_jours: 7
+  versions_majeures_retard: 2
+  epss_eleve: 0.10
+  fin_de_vie_proche_jours: 90
+  admins_max: 3
+
+matrice_conformite:
+  iso27001: [A.5.15, A.5.18, A.5.21, A.8.2, A.8.4, A.8.5, A.8.8, A.8.9, A.8.24, A.8.25, A.8.28]
+  ssdf: [PO.3, PO.5, PS.1, PS.3, PW.4, PW.7, PW.8, RV.1, RV.2]

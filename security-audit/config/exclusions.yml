@@ -1,0 +1,5 @@
+# Dépôts exclus de l'audit. Chaque exclusion doit avoir un motif et une date de revue.
+exclusions: []
+#  - repo: nom-du-depot
+#    motif: "Fork non modifié de projet tiers"
+#    valide_jusqu_au: 2027-01-01
